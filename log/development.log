@@ -10767,3 +10767,1021 @@ Processing by OffersController#index as HTML
 Completed 200 OK in 59ms (Views: 40.1ms | ActiveRecord: 17.0ms | Allocations: 13897)
 
 
+Started GET "/offers" for ::1 at 2020-12-19 10:51:22 +0100
+Started GET "/offers" for ::1 at 2020-12-19 10:51:22 +0100
+  [1m[35m (13.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (19.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OffersController#index as HTML
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (0.6ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  [1m[36mOffer Load (1.0ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (1.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.9ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (1.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered offers/index.html.erb within layouts/application (Duration: 158.7ms | Allocations: 36218)
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 161.5ms | Allocations: 37298)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 191)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 179)
+  Rendered shared/_flashes.html.erb (Duration: 0.9ms | Allocations: 202)
+Completed 200 OK in 493ms (Views: 397.5ms | ActiveRecord: 72.2ms | Allocations: 167973)
+
+
+  Rendered shared/_flashes.html.erb (Duration: 0.8ms | Allocations: 195)
+Completed 200 OK in 483ms (Views: 438.7ms | ActiveRecord: 29.4ms | Allocations: 167314)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 10:51:23 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (30.9ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (33.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (4.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (33.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 132.4ms | Allocations: 5014)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 156ms (Views: 53.1ms | ActiveRecord: 102.1ms | Allocations: 16638)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:07:33 +0100
+Started GET "/offers" for ::1 at 2020-12-19 11:07:33 +0100
+  [1m[35m (28.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (44.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OffersController#index as HTML
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (0.9ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  [1m[36mOffer Load (1.4ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (1.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Load (1.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (2.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (1.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered offers/index.html.erb within layouts/application (Duration: 167.1ms | Allocations: 36275)
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 169.4ms | Allocations: 37335)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 185)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 174)
+  Rendered shared/_flashes.html.erb (Duration: 0.6ms | Allocations: 205)
+  Rendered shared/_flashes.html.erb (Duration: 0.5ms | Allocations: 194)
+Completed 200 OK in 273ms (Views: 222.2ms | ActiveRecord: 37.4ms | Allocations: 78511)
+
+
+Completed 200 OK in 263ms (Views: 176.7ms | ActiveRecord: 80.5ms | Allocations: 75968)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:07:34 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (70.5ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (9.9ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (3.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 96.7ms | Allocations: 5023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 121ms (Views: 34.3ms | ActiveRecord: 84.6ms | Allocations: 13924)
+
+
+Started GET "/" for ::1 at 2020-12-19 11:07:48 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 85)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 9423)
+
+
+Started GET "/" for ::1 at 2020-12-19 11:07:48 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 8870)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-19 11:07:54 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 48ms (ActiveRecord: 8.7ms | Allocations: 11562)
+
+
+Started GET "/" for ::1 at 2020-12-19 11:07:55 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 8884)
+
+
+Started GET "/" for ::1 at 2020-12-19 11:07:55 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 8875)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:08:47 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (0.7ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 5013)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 2.9ms | Allocations: 13909)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:08:47 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (1.6ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (2.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (1.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 26.8ms | Allocations: 5009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 49ms (Views: 42.0ms | ActiveRecord: 6.5ms | Allocations: 13904)
+
+
+Started GET "/offers/7" for ::1 at 2020-12-19 11:09:03 +0100
+Processing by OffersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mOffer Load (0.4ms)[0m  [1m[34mSELECT "offers".* FROM "offers" WHERE "offers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/offers_controller.rb:53:in `set_offer'
+  Rendering offers/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (2.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:1
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:2
+  Rendered offers/show.html.erb within layouts/application (Duration: 13.6ms | Allocations: 2315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 42ms (Views: 32.1ms | ActiveRecord: 3.3ms | Allocations: 12076)
+
+
+Started GET "/offers/7" for ::1 at 2020-12-19 11:09:03 +0100
+Processing by OffersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mOffer Load (0.4ms)[0m  [1m[34mSELECT "offers".* FROM "offers" WHERE "offers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/offers_controller.rb:53:in `set_offer'
+  Rendering offers/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:1
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:2
+  Rendered offers/show.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 1.2ms | Allocations: 11627)
+
+
+Started GET "/offers/7" for ::1 at 2020-12-19 11:09:03 +0100
+Processing by OffersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mOffer Load (32.1ms)[0m  [1m[34mSELECT "offers".* FROM "offers" WHERE "offers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/offers_controller.rb:53:in `set_offer'
+  Rendering offers/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:1
+  [1m[36mActiveStorage::Blob Load (2.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/show.html.erb:2
+  Rendered offers/show.html.erb within layouts/application (Duration: 11.1ms | Allocations: 2135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 62ms (Views: 24.3ms | ActiveRecord: 35.0ms | Allocations: 11621)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:09:08 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (0.5ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.8ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 5023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 2.6ms | Allocations: 13921)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 11:09:08 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (5.4ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (1.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 5009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 38ms (Views: 29.7ms | ActiveRecord: 8.0ms | Allocations: 13918)
+
+
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 11:10:02 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 9526)
+
+
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 11:10:02 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 9266)
+
+
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:41:39 +0100
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:41:39 +0100
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QrCodesController#new as HTML
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 264)
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 186)
+Completed 500 Internal Server Error in 1219ms (ActiveRecord: 0.0ms | Allocations: 102496)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 1:1 of app/assets/stylesheets/components/navbar.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:1
+app/views/layouts/application.html.erb:8
+Completed 500 Internal Server Error in 1229ms (ActiveRecord: 0.0ms | Allocations: 104808)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 1:1 of app/assets/stylesheets/components/navbar.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:1
+app/views/layouts/application.html.erb:8
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:41:42 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 13932)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 1:1 of app/assets/stylesheets/components/navbar.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:1
+app/views/layouts/application.html.erb:8
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:42:28 +0100
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:42:28 +0100
+Processing by QrCodesController#new as HTML
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms | Allocations: 27512)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Completed 500 Internal Server Error in 677ms (ActiveRecord: 0.0ms | Allocations: 620393)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:42:29 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms | Allocations: 15232)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:42:49 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 84)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms | Allocations: 15393)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:42:50 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms | Allocations: 14841)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:43:26 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms | Allocations: 14911)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:45:25 +0100
+Started GET "/" for ::1 at 2020-12-19 12:45:25 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms | Allocations: 27935)
+
+
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.0ms | Allocations: 31463)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:45:27 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms | Allocations: 14840)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:48:17 +0100
+Started GET "/" for ::1 at 2020-12-19 12:48:17 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 228)
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 117)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms | Allocations: 30562)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Completed 500 Internal Server Error in 732ms (ActiveRecord: 0.0ms | Allocations: 623363)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:48:18 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms | Allocations: 14872)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: compass/css3.
+        on line 20:1 of app/assets/stylesheets/application.scss
+>> @import "compass/css3";
+
+   ^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:50:58 +0100
+Started GET "/" for ::1 at 2020-12-19 12:50:58 +0100
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (17.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 228)
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 117)
+Completed 500 Internal Server Error in 968ms (ActiveRecord: 0.0ms | Allocations: 99073)
+
+
+  
+ActionView::Template::Error (Error: Undefined operation: "cos(0.1) times 115px".
+        on line 148:36 of app/assets/stylesheets/components/navbar.scss
+>>             transform: translate3d(cos($angle)*$open-distance, sin($angle)*$
+   -----------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:148
+app/views/layouts/application.html.erb:8
+Completed 500 Internal Server Error in 1467ms (ActiveRecord: 0.0ms | Allocations: 713984)
+
+
+  
+ActionView::Template::Error (Error: Undefined operation: "cos(0.1) times 115px".
+        on line 148:36 of app/assets/stylesheets/components/navbar.scss
+>>             transform: translate3d(cos($angle)*$open-distance, sin($angle)*$
+   -----------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:148
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:51:00 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 13837)
+
+
+  
+ActionView::Template::Error (Error: Undefined operation: "cos(0.1) times 115px".
+        on line 148:36 of app/assets/stylesheets/components/navbar.scss
+>>             transform: translate3d(cos($angle)*$open-distance, sin($angle)*$
+   -----------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <p class="notice"><%= notice %></p>
+    11:     <p class="alert"><%= alert %></p>
+  
+app/assets/stylesheets/components/navbar.scss:148
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2020-12-19 12:51:39 +0100
+Started GET "/" for ::1 at 2020-12-19 12:51:39 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 89)
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 81)
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.3ms | Allocations: 170)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 0.0ms | Allocations: 49895)
+
+
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms | Allocations: 48311)
+
+
+Started GET "/" for ::1 at 2020-12-19 12:51:39 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 8867)
+
+
+Started GET "/" for ::1 at 2020-12-19 12:55:53 +0100
+Started GET "/" for ::1 at 2020-12-19 12:55:53 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 106)
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered shared/_flashes.html.erb (Duration: 1.2ms | Allocations: 196)
+  Rendered shared/_flashes.html.erb (Duration: 1.2ms | Allocations: 190)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.0ms | Allocations: 19706)
+
+
+Completed 200 OK in 45ms (Views: 41.5ms | ActiveRecord: 0.0ms | Allocations: 19230)
+
+
+Started GET "/" for ::1 at 2020-12-19 12:55:54 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 8867)
+
+
+Started GET "/" for ::1 at 2020-12-19 12:57:28 +0100
+Started GET "/" for ::1 at 2020-12-19 12:57:28 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 92)
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 1421)
+  Rendered shared/_flashes.html.erb (Duration: 0.8ms | Allocations: 164)
+Completed 200 OK in 1943ms (Views: 1940.0ms | ActiveRecord: 0.0ms | Allocations: 174161)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 2032ms (Views: 2029.6ms | ActiveRecord: 0.0ms | Allocations: 184150)
+
+
+Started GET "/" for ::1 at 2020-12-19 12:57:31 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms | Allocations: 15280)
+
+
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:57:58 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 9513)
+
+
+Started GET "/qr_codes/new" for ::1 at 2020-12-19 12:57:59 +0100
+Processing by QrCodesController#new as HTML
+  Rendering qr_codes/new.html.erb within layouts/application
+  Rendered qr_codes/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 8874)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:17 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 8871)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:17 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 8873)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:33 +0100
+Started GET "/" for ::1 at 2020-12-19 13:01:33 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 1974ms (Views: 1973.1ms | ActiveRecord: 0.0ms | Allocations: 172308)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 2000ms (Views: 1998.8ms | ActiveRecord: 0.0ms | Allocations: 176239)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:35 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms | Allocations: 9246)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:57 +0100
+Started GET "/" for ::1 at 2020-12-19 13:01:57 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 106)
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 82)
+  Rendered shared/_flashes.html.erb (Duration: 1.3ms | Allocations: 241)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 18403)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 19886)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:01:57 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 8871)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:02:25 +0100
+Started GET "/" for ::1 at 2020-12-19 13:02:25 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 91)
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 196)
+  Rendered shared/_flashes.html.erb (Duration: 0.4ms | Allocations: 190)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 19545)
+
+
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 19187)
+
+
+Started GET "/" for ::1 at 2020-12-19 13:02:25 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 9247)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 13:03:17 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (2.1ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.8ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 106.4ms | Allocations: 30750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 148ms (Views: 117.5ms | ActiveRecord: 22.7ms | Allocations: 41427)
+
+
+Started GET "/offers" for ::1 at 2020-12-19 13:03:17 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (0.4ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 7], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Attachment Load (3.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 8], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:17
+  Rendered offers/index.html.erb within layouts/application (Duration: 47.5ms | Allocations: 5009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.0ms | Allocations: 11)
+Completed 200 OK in 77ms (Views: 60.7ms | ActiveRecord: 5.5ms | Allocations: 13913)
+
+
