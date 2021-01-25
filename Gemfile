@@ -21,6 +21,7 @@ gem 'jquery-rails'
 gem 'geocoder'
 gem 'mini_magick'
 gem 'mapbox-gl-rails'
+gem 'social-share-button'
 gem 'sendgrid-ruby'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

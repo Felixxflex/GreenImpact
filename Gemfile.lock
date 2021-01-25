@@ -77,6 +77,13 @@ GEM
     cloudinary (1.16.1)
       aws_cf_signer
       rest-client
+    coffee-rails (5.0.0)
+      coffee-script (>= 2.2.0)
+      railties (>= 5.2.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     devise (4.7.3)
@@ -92,6 +99,7 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     erubi (1.10.0)
+    execjs (2.7.0)
     ffi (1.13.1)
     geocoder (1.6.4)
     globalid (0.4.2)
@@ -202,6 +210,8 @@ GEM
     simple_form (5.0.3)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
+    social-share-button (1.2.3)
+      coffee-rails
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -270,6 +280,7 @@ DEPENDENCIES
   selenium-webdriver
   sendgrid-ruby
   simple_form
+  social-share-button
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
