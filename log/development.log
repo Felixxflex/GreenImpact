@@ -51153,3 +51153,63 @@ Completed 302 Found in 76535ms (ActiveRecord: 14.4ms | Allocations: 305791)
 [ActiveJob] [ActiveStorage::AnalyzeJob] [fd5c9a9f-ab2f-4fa4-b762-ac9f0598bab9] Performed ActiveStorage::AnalyzeJob (Job ID: fd5c9a9f-ab2f-4fa4-b762-ac9f0598bab9) from Async(active_storage_analysis) in 2156.21ms
   [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "17felix2000ggmail.com"], ["LIMIT", 1]]
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "17felix2000gmail.com"], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2021-01-25 11:43:42 +0100
+  [1m[35m (8.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 75)
+  Rendered shared/_flashes.html.erb (Duration: 1.2ms | Allocations: 169)
+Completed 200 OK in 310ms (Views: 179.4ms | ActiveRecord: 31.5ms | Allocations: 43196)
+
+
+Started GET "/flats" for ::1 at 2021-01-25 11:43:45 +0100
+Processing by FlatsController#index as HTML
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mFlat Load (22.1ms)[0m  [1m[34mSELECT "flats".* FROM "flats" WHERE (flats.latitude IS NOT NULL AND flats.longitude IS NOT NULL)[0m
+  ↳ app/controllers/flats_controller.rb:7:in `map'
+  Rendering flats/index.html.erb within layouts/application
+  Rendered flats/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 86ms (Views: 30.0ms | ActiveRecord: 34.7ms | Allocations: 15406)
+
+
+Started GET "/path/users/show" for ::1 at 2021-01-25 11:43:48 +0100
+Processing by UsersController#show as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (3.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 5], ["record_type", "User"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:13
+  [1m[36mActiveStorage::Blob Load (1.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:14
+  Rendered users/show.html.erb within layouts/application (Duration: 167.2ms | Allocations: 22155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 204ms (Views: 175.2ms | ActiveRecord: 21.8ms | Allocations: 34857)
+
+
+Started GET "/offers" for ::1 at 2021-01-25 11:43:54 +0100
+Processing by OffersController#index as HTML
+  Rendering offers/index.html.erb within layouts/application
+  [1m[36mOffer Load (24.5ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  ↳ app/views/offers/index.html.erb:13
+  [1m[36mActiveStorage::Attachment Load (22.8ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 12], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:21
+  [1m[36mActiveStorage::Blob Load (2.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:21
+  [1m[36mActiveStorage::Attachment Load (1.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 13], ["record_type", "Offer"], ["name", "photo"], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:21
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/offers/index.html.erb:21
+  Rendered offers/index.html.erb within layouts/application (Duration: 99.4ms | Allocations: 10620)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered shared/_flashes.html.erb (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 139ms (Views: 73.8ms | ActiveRecord: 58.3ms | Allocations: 22816)
+
+
