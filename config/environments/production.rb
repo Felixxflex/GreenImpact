@@ -34,14 +34,14 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
-    :user_name => 'apikey',
-    :password => ENV['SENDGRID_API_KEY'],
+    :user_name => Rails.application.credentials.dig(:user_name),
+    :password => Rails.application.credentials.dig(:password),
     :domain => 'heroku.com',
     :enable_starttls_auto => true
   }
  
   config.action_mailer.delivery_method = :smtp
-config.action_mailer.default_url_options ={:host => 'scanexc.herokuapp.com'} #, :protocol => 'https'
+  config.action_mailer.default_url_options ={:host => 'scanexc.herokuapp.com'} #, :protocol => 'https'
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
