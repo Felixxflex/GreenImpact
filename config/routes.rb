@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
-  devise_for :users
+  devise_for :users, controllers: { confirmations: 'confirmations' }
+
+  
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root to: "pages#home"
   resources :flats
@@ -14,5 +16,6 @@ Rails.application.routes.draw do
   get "/path/questions", to: "pages#questions", as: "pagesquestions"
   get "/path/users/show", to: "users#show", as: "usersshow"
   
+
 
 end
