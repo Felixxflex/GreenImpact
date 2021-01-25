@@ -1,11 +1,15 @@
 class User < ApplicationRecord
-  has_many :point
+  has_many :winpoint
   has_one_attached :photo
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :registerable, :confirmable
+
+         def winpoints
+          @winpoints ||= 0
+        end
 
          def self.from_omniauth(auth)
           where(provider: auth.provider, uid: auth.uid).first_or_create do |user|

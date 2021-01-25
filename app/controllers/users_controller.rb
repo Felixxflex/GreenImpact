@@ -19,9 +19,14 @@ class UsersController < ApplicationController
     def edit
     end
     
-    def update
-     
-    end
+    def addpoints
+      @user = current_user
+      @user.winpoints += 10
+      current_user.save
+
+      redirect_to users_path(show)
+  end
+
     
     def update
       @user.update(user_params)
